@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap");
+
+:root {
+  --underweight: orange;
+  --normal: green;
+  --overweight: lightcoral;
+  --obesitas: crimson;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  background-image: url('img/25.jpg');
+  background-attachment: fixed;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Marking {
+  position:fixed;
+  bottom:5px;
+  left:10px;
+  opacity: 4;
+  z-index:99;
+  color: rgb(92, 64, 64);
+  font-weight:bolder;
+}
+
+.Contact {
+  position:fixed;
+  bottom:120px;
+  left:50px;
+  opacity: 4;
+  z-index:99;
+  color: rgb(92, 64, 64);
+  font-weight: bold;
+}
+.container {
+  width: 90%;
+  max-width: 420px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 1px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+  display: grid;
+  gap: 1rem;
+}
+
+.calculator {
+  display: grid;
+  gap: 1rem;
+}
+
+.calculator div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.calculator label {
+  flex: 0 1 120px;
+  font-weight: 600;
+}
+
+.calculator input {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  outline-color: #555;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.calculator button {
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background: #00a1a3;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.calculator button[type="reset"] {
+  background: #444;
+}
+
+.calculator button:hover {
+  filter: brightness(120%);
+}
+
+.recommendation {
+  #recommendation {
+    border: 8px solid #ccc; /* Add a border to the box */
+    padding: 10px;          /* Add some padding */
+    max-height: 200px;      /* Set a maximum height */
+    overflow-y: auto;       /* Add a scrollbar if the content exceeds the max height */
+    margin-top: 10px;       /* Add space above the recommendations */
+    background-color: #f9f9f9; /* Light background color */
+    text-align: left;
+  }
+  
+}
+
+.recommendation #Penaik {
+  font-weight:500;
+}
+
+.recommendation #Penurun {
+  font-weight:500;
+}
+
+
+.output {
+  text-align: center;
+}
+
+.output #bmi {
+  font-size: 4rem;
+}
+
+.output #desc strong {
+  text-transform: uppercase;
+}
+
+.bmi-scale {
+  display: flex;
+}
+
+.bmi-scale div {
+  flex: 1;
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 5px solid var(--color);
+  padding: 10px;
+}
+
+.bmi-scale h4 {
+  font-size: 0.75rem;
+  color: slategray;
+}
+
+.underweight {
+  color: var(--underweight);
+}
+
+.healthy {
+  color: var(--normal);
+}
+
+.overweight {
+  color: var(--overweight);
+}
+
+.obesitas {
+  color: var(--obesitas);
+}
+
+.Avatar {
+  position:fixed;
+  bottom:25px;
+  left:50px;
+  opacity: 4;
+  z-index:99;
+  font-weight: bold;
+}
+
+.Judul {
+  width: 90%;
+  max-width: 420px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+  display: grid;
+  gap: 1rem;
+}
+
+.Judul1 {
+  width: 90%;
+  max-width: 420px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+  display: grid;
+  gap: 1rem;
+}
+
+.Judul1 h2{
+  text-align: center;
+  font-weight: normal; /* Ensures the text is not bold */
+}
+
+.Judul1 p, .Judul p {
+  text-align: left;
+  font-weight: normal; /* Ensures the text is not bold */
+}
+
+.Judul h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.6em;
+}
+
+.bullet {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 5px 5px 5px 0; /* Adjust margins as needed */
+}
+
+.container2 {
+  width: 90%;
+  max-width: 700px;
+  background: #faf6e8;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+  display: grid;
+  gap: 1rem;
+}
+
+.Tombol2 {
+  width: 90%;
+  max-width: 420px;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+  display: grid;
+  gap: 1rem;
+}

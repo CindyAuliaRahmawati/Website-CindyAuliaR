@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nutricheck By Cindy Aulia Rahmawati</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Menambahkan CSS untuk tombol */
+      .Tombol2 {
+        text-align: center; /* Menyusun tombol di tengah */
+        margin-top: 50px; /* Memberi jarak dari atas */
+      }
+  
+      .Tombol2 button {
+        background-color: #4CAF50; /* Warna latar belakang hijau */
+        color: white; /* Warna teks putih */
+        padding: 20px 50px; /* Padding tombol */
+        text-align: center; /* Teks rata tengah */
+        text-decoration: none; /* Menghilangkan garis bawah */
+        font-size: 20px; /* Ukuran font */
+        border-radius: 8px; /* Sudut tombol melengkung */
+        cursor: pointer; /* Menambahkan kursor pointer */
+        border: none; /* Menghilangkan border tombol */
+      }
+  
+      .Tombol2 button:hover {
+        background-color: #45a049; /* Efek hover, latar belakang sedikit lebih gelap */
+      }
+    </style>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="Judul1">
+      <h2>Apa itu BMI (Body Mass Index)?</h2>
+      <p>Body Mass Index (BMI) atau Indeks Massa Tubuh (IMT) adalah indikator pengukuran untuk memperkirakan berat badan ideal seseorang berdasarkan tinggi dan berat badannya. BMI dapat digunakan untuk mengetahui apakah berat badan seseorang termasuk normal, kurus, atau obesitas.</p>
+  </div>
+  <div>&nbsp;</div>
+
+    <div class="container">
+      <h1>Nutricheck</h1>
+      <form class="calculator">
+        <div>
+          <label for="Age">Age</label>
+          <input type="number" id="Age" min="0" step="0.01" value="0" />
+      </div>
+      
+      <div>
+        <label for="Gender">Gender</label><br>
+        <input type="radio" id="Men" name="gender" value="Men">
+        <label for="Men">Men</label><br>
+        <input type="radio" id="Women" name="gender" value="Women">
+        <label for="Women">Women</label>
+    </div>
+    
+
+        <div>
+          <label for="weight">Weight (kg)</label>
+          <input type="number" id="weight" min="0" step="0.01" value="0" />
+        </div>
+
+        <div>
+          <label for="height">Height (cm)</label>
+          <input type="number" id="height" min="0" step="0.01" value="0" />
+        </div>
+
+        <div>
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+
+      <section class="output">
+        <h3>Your BMI is</h3>
+        <p id="bmi">0</p>
+        <p id="desc">N/A</p>
+      </section>
+
+      <section class="bmi-scale">
+        <div style="--color: var(--underweight)">
+          <h4>Underweight</h4>
+          <p>&lt; 18.5</p>
+        </div>
+
+        <div style="--color: var(--normal)">
+          <h4>Normal</h4>
+          <p>18.5 – 25</p>
+        </div>
+
+        <div style="--color: var(--overweight)">
+          <h4>Overweight</h4>
+          <p>25 – 30</p>
+        </div>
+
+        <div style="--color: var(--obesitas)">
+          <h4>Obesitas</h4>
+          <p>≥ 30</p>
+        </div>
+      </section>
+
+      <section class="recommendation" id="recommendation">
+      </section>
+
+      <section class="Avatar">
+          <img src="img/ff.png" height="80" width="80" alt="Myavatar">
+        </section>
+      <section class="Contact">
+          <a href="https://wa.link/ikhnt4" target="_blank"> Contact Me</a>
+      </section>
+
+      <section class="Marking">
+        <h9>Cindy Aulia Rahmawati</h9>
+      </section>
+    </div>
+    <div>&nbsp;</div>
+
+    <div class="Tombol2">
+      <button onclick="window.location.href='index.html';">Klik Disini Untuk Kembali</button>
+    </div>
+  </body>
+</html>
