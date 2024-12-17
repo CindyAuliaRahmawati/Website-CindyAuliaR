@@ -197,7 +197,7 @@ h1 {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
   display: grid;
   gap: 0.5rem; /* Mengurangi jarak antar elemen */
-  line-height: 1.4; /* Mengatur tinggi baris agar teks tidak terlalu berjauhan */
+  line-height: 1.0; /* Mengatur tinggi baris agar teks tidak terlalu berjauhan */
 }
 
 .Judul1 h2{
