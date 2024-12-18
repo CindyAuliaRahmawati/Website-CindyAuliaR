@@ -246,3 +246,7 @@ h1 {
   display: grid;
   gap: 1rem;
 }
+
+.Audio
+  place-items: center;
+  align-items: center;
