@@ -248,6 +248,6 @@ h1 {
 }
 
 .Audio {
+  display: grid;
   place-items: center;
-  align-items: center;
 }
