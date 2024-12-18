@@ -247,6 +247,7 @@ h1 {
   gap: 1rem;
 }
 
-.Audio
+.Audio {
   place-items: center;
   align-items: center;
+}
