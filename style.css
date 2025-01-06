@@ -253,3 +253,12 @@ h1 {
   align-items: center;
   height: 100vh; /* Untuk mengisi seluruh tinggi layar */
 }
+
+.logo1 {
+  position: fixed;
+  top: 25px; /* Posisi dari atas */
+  right: 25px; /* Posisi dari kanan */
+  opacity: 1; /* Sesuaikan opasitas jika perlu */
+  z-index: 99;
+  font-weight: bold;
+}
