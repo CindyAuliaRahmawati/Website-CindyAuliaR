@@ -253,3 +253,15 @@ h1 {
   align-items: center;
   height: 100vh; /* Untuk mengisi seluruh tinggi layar */
 }
+
+.Logo1 {
+  position: fixed; /* Menetapkan posisi tetap */
+  top: 0; /* Menempatkan di bagian atas */
+  right: 0; /* Menempatkan di bagian kanan */
+  z-index: 99; /* Memastikan logo berada di atas elemen lain */
+}
+
+.Logo1 img {
+  height: 100px; /* Menentukan tinggi gambar */
+  width: 300px; /* Menentukan lebar gambar */
+}
