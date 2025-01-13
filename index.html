@@ -27,17 +27,18 @@
     .Tombol button:hover {
       background-color: #45a049; /* Efek hover, latar belakang sedikit lebih gelap */
     }
-
-    .Logo1 {
-  position: fixed; /* Membuat logo tetap berada di posisi yang sama meskipun halaman digulir */
-  top: 15px; /* Menempatkan logo 15px dari bagian atas halaman */
-  left: 50%; /* Menempatkan logo di tengah halaman secara horizontal */
-  transform: translateX(-50%); /* Menggeser logo ke kiri sebanyak setengah lebar logo untuk benar-benar berada di tengah */
-  z-index: 99; /* Memastikan logo tetap di atas elemen lain */
-  }
-
+    
     .container2 {
       margin-top: 88px;  /* Memberi jarak antara logo dan konten di bawahnya */
+    }
+
+    /* CSS untuk Logo agar tetap fixed */
+    .Logo1 {
+      position: fixed; /* Membuat logo tetap di posisi yang sama meskipun halaman digulir */
+      top: 15px; /* Jarak logo dari bagian atas halaman */
+      left: 50%; /* Membuat logo berada di tengah horizontal */
+      transform: translateX(-50%); /* Menggeser logo agar benar-benar berada di tengah */
+      z-index: 99; /* Memastikan logo tetap di atas elemen lain */
     }
   </style>
 </head>
@@ -45,7 +46,8 @@
     <section class="Logo1">
       <img src="logo1.png" height="50" width="160" alt="Logo1">
     </section>
-   <div class="container2">
+   
+    <div class="container2">
       <h1><img src="img/100.png" height="150" width="300" alt="Myavatar"></h1>
       <h1><img src="10001.png" height="750" width="600" alt="Myavatar"></h1>
       <div style="text-align: center;">
