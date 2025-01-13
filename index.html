@@ -29,11 +29,12 @@
     }
 
     .Logo1 {
-      position: fixed; /* Membuat logo tetap berada di posisi yang sama meskipun halaman digulir */
-      top: 15px; /* Menempatkan logo 0px dari bagian atas halaman */
-      center: 0; /* Menempatkan logo 0px dari bagian kanan halaman */
-      z-index: 99; /* Memastikan logo tetap di atas elemen lain */
-    }
+  position: fixed; /* Membuat logo tetap berada di posisi yang sama meskipun halaman digulir */
+  top: 15px; /* Menempatkan logo 15px dari bagian atas halaman */
+  left: 50%; /* Menempatkan logo di tengah halaman secara horizontal */
+  transform: translateX(-50%); /* Menggeser logo ke kiri sebanyak setengah lebar logo untuk benar-benar berada di tengah */
+  z-index: 99; /* Memastikan logo tetap di atas elemen lain */
+  }
 
     .container2 {
       margin-top: 88px;  /* Memberi jarak antara logo dan konten di bawahnya */
